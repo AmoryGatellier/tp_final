@@ -1,0 +1,45 @@
+.centres{
+    width: 960px;
+    height: 99px;
+    background-repeat: no-repeat;
+}
+.centres{
+    padding: 10px 10px 10px 30px;
+}
+
+#ramonville{
+    background-image: url("images/ramonville.png");
+}
+
+#ramonville{
+    background-image: url("images/ramonville.png");
+}
+
+#montpellier{
+    background-image: url("images/montpellier.png");
+}
+
+#perpignan{
+    background-image: url("images/perpignan.png");
+}
+
+#tarbes{
+    background-image: url("images/tarbes.png");
+}
+
+#carcassonne{
+    background-image: url("images/carcassonne.png");
+}
+
+:root{
+    --textColor:#171A22;
+}
+body {
+    margin: 0;
+    font-size: 15px;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--textColor);
+}

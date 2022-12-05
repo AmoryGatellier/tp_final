@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=" utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+    <h1>Cntactez-nous</h1>
+    <p>Vous avez un projet de formation? Contactez nous pour un devis ou un demande de renseignement!</p>
+    <fieldset>
+        <form method="POST" action="formulaire.html"></form>
+        <label for="Votre nom">Votre nom*</label><br>
+        <input type="text"name="Nom" id="Nom" placeholder="Nom"/><br>
+        <label for="Votre Prénom">Votre prénom*</label><br>
+        <input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/><br>
+        <label for="Votre email">Votre Email* </label><br>
+        <input type="text" name="Email" id="Email" placeholder="Email"/><br>
+        <label for="Téléphone">Téléphone*</label><br>
+        <input type="text"name="Téléphone" id="Téléphone" placeholder="Télélphone"/><br>
+        <label for="Formation envisgée">Formation envisagée*</label><br>
+        <input type="text" name="Formation envisagée" id="Formation envisagée" placeholder="Formation"/><br>
+        <label for="Actuellement vous etes*">Actuellement vous etes</label><br>
+        <select name="liste" id="liste">
+            <option value="Alternant">Alternant</option>
+            <option value="Demandeur d'emploi">Demandeurd'emploi</option>
+            <option value="Entreprises">Entreprises</option>
+            <option value="Salarié">Salarié</option>
+            <option value="Autre">Autre</option>
+        </select>
+        <label for="Autre-Précisez">Autre-Précisez</label><br>
+        <input type="text"name="Autre"id="Autre" placeholder="Autre"/><br>
+        <label for="Cochez les cases correspondant à votre siutation le cas échéant:">Cochez les cases correspondant à votre siutation le cas échéant:</label>
+        <input type="checkbox" id="checkbox"/><label for="Je suis Reconnu en Qualité de Travailleur Handicapé (RQTH)
+        ">Je suis Reconnu en Qualité de Travailleur Handicapé (RQTH)</label>
+        <input type="checkbox"id="checkbox"/><label for="Je suis en contrat de Sécurisation Professionelle(CSP) suite à un licenciment économique">Je suis en contrat de Sécurisation Professionelle(CSP) suite à un licenciment économique</label>
+        <label for="Votre CPF est il alimenté?">Votre CPF est itl alimenté?</label>
+        <input type="radio" id="radio" value="radio"/><label for="Oui">Oui</label>
+        <input type="radio" id="radio" value="radio"/><label for="Non">Non</label>
+        <input type="radio" id="radio" value="radio"/><label for="">Je ne sai pas</label>
+        <label for="Quel financement de votre formation avez-vous envisagé?"></label>
+        <select name="liste" id="liste">
+            <option value="Alternance">Alternance</option>
+            <option value="Pole emploi/Region">Pole emploi/Région</option>
+            <option value="CPF">CPF</option>
+            <option value="Je ne sais pas">Je ne sais pas</option>
+        </select>
+        <label for="Message*">Message*</label><br>
+        <textarea name="Message" id="Message" cols="70" rows="10"></textarea><br>
+        <input type="checkbox" id="checkbox"/><label for="J'accepte que Adrar Formation collecte et utilise les données personnelles renseignées dans ce formulaire. Pour plus d'informations, vous pouvez consulter notre page politique de protection des données.">J'accepte que Adrar Formation collecte et utilise les données personnelles renseignées dans ce formulaire. Pour plus d'informations, vous pouvez consulter notre page politique de protection des données.</label>
+        <input type="submit" value="Envoyer/">
+    </fieldset>
+    <div>
+        <h2>ADRAR Formation (siège)</h2>
+        <p>Parc Technologique du Canal
+            2 Rue Irène et Joliot Curie
+            31520 Ramonville-Saint-Agne</p>
+            <a href="mailto:adrarinfo@adrar-formation.com">adrarinfo@adrar-formation.com</a>
+            <a href=""></a>
+    </div>
+    </body>
+</html>
