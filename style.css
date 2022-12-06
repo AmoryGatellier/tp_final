@@ -3,68 +3,120 @@
     --font:'Montserrat', sans-serif;
 }
 
+body{
+    font-family: var(--font);
+    color: var(--textColor);
+    margin-left: 5%;
+}
+
 #logo{
     width: 80px;
     height: 80px;
+    margin-left: -2%;
 }
 
 .logo2{
-    width: 100%;
-    height: 100%;
+    width: 65%;
+    height: 120%;
 }
 
 .centres{
-    width: 960px;
+    width: 450px;
     height: 99px;
     background-repeat: no-repeat;
-}
-.centres{
     padding: 10px 10px 10px 30px;
 }
 
 #ramonville{
     background-image: url("images/ramonville.png");
 }
-
 #ramonville{
     background-image: url("images/ramonville.png");
 }
-
 #montpellier{
     background-image: url("images/montpellier.png");
 }
-
 #perpignan{
     background-image: url("images/perpignan.png");
 }
-
 #tarbes{
     background-image: url("images/tarbes.png");
 }
-
 #carcassonne{
     background-image: url("images/carcassonne.png");
 }
 
 
-body{
-    font-family: var(--font);
+a{
+    text-decoration: none;    
+}
+
+a:visited{
     color: var(--textColor);
 }
 
+
+#lescentres{
+    display: grid;
+    grid-template: 80px 80px / 27% 27% 27%;
+    justify-content: center;
+    gap: 35px;
+}
+
+#titre2{
+    text-align: center;
+    font-size: 22.5;
+}
+
+#ramonville{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#montpellier{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#perpignan{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#tarbes{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#carcassonne{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
 #actu{
     display: grid;
-    grid-template: 50px 50px 300px / 30% 30% 30%;
+    grid-template: 50px 20px 300px / 30% 30% 30%;
     justify-content: center;
-    margin: 1%;
-    padding: 1% 1% 5% 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+#actu div img{
+    background-color: rgb(210, 210, 210);
 }
 
 #actu div{
     padding: 1% 10% 10% 5%;
+    text-align: center;
+}
+
+#actu div p, #actu div h4{
+    text-align: left;
+    color: #707070;
 }
 
 #actu div:nth-child(1){
+    font-size: 16px;
     grid-column: 2;
     grid-row: 1;
 }

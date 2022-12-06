@@ -1,4 +1,26 @@
-h1{
+body{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    padding: 50px;
+    margin-top: 70px;
 }
+fieldset{
+    background-color: rgb(218, 234, 255);
+    border: none;
+    margin-right: 1100px;
+    margin-left: 200px;
+}
+h1{
+    padding-left: 200px;
+}
+p:nth-of-type(1){
+    padding-left: 200px;
+    padding-right: 200px;
+}
+input{
+    border: none;
+}
+select{
+    border: none;
+}
+textarea{
+    border: none
