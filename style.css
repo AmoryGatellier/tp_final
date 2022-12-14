@@ -116,7 +116,7 @@ a:visited{
 
 #actu{
     display: grid;
-    grid-template: 60px 300px 300px / 1fr 1fr 1fr;
+    grid-template: 100px 300px 300px / 1fr 1fr 1fr;
     justify-content: center;
     padding: 1% 1% 1% 1%;
 }
