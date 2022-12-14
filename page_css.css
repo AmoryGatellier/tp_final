@@ -1,0 +1,69 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#logocss{
+    width: 150px;
+    height: 150px;
+    margin-left: -2%;
+    margin-top: -50px;
+}
+
+@keyframes rota{
+    0%{
+        transform: rotate(0deg)
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    40%{
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(270deg);
+    }
+    80%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#logocss:hover{
+    animation: infinite rota 3s;
+}
+
+#cssdiv{
+    display: grid;
+    grid-template: 100px 1fr / 3fr 1fr 4fr;
+    margin-top: 30px;
+}
+
+#cssdiva{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#cssdivb{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#cssdivc{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#cssdivd{
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px double black;
+    border-radius: 10px;
+    height: 711px;
+}
